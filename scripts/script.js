@@ -5,7 +5,7 @@ const testMeomoryCards = []; //create the test card data that would be sent from
 for (let index = 0; index < 52; index++) {
     testMeomoryCards.push({
         frontImage: `./assets/Black_Cards/${index}.png`,
-        background: `./assets/Black_Cards/background.png`
+        background: `./assets/Black_Cards/Background.png`
     });
 }
 
