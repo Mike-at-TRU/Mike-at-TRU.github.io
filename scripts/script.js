@@ -7,6 +7,7 @@ for (let index = 0; index < 52; index++) {
         frontImage: `./assets/Black_Cards/${index}.png`,
         background: `./assets/Black_Cards/Background.png`
     });
+    //test
 }
 
 
@@ -35,7 +36,7 @@ document.addEventListener(`DOMContentLoaded`, async () => {
 
 
 
-    // const cardTemplate = document.querySelector("#cardTemplate"); //ended up just using default button
+    const cardTemplate = document.querySelector("#cardTemplate"); //ended up just using default button
 
     const numberOfPairsWithMatches = 1; //will depend on dificulty, hard wired for now
 
