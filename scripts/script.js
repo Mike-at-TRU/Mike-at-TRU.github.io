@@ -37,9 +37,9 @@ document.addEventListener(`DOMContentLoaded`, async () => {
 
     // const cardTemplate = document.querySelector("#cardTemplate"); //ended up just using default button
 
-    const numberOfPairsWithMatches = 9615; //will depend on dificulty, hard wired for now
+    const numberOfPairsWithMatches = 1; //will depend on dificulty, hard wired for now
 
-    const numberOfCardsFromServer = 52; //number of random images that will be used
+    const numberOfCardsFromServer = 8; //number of random images that will be used
 
     const usedCards = shuffle(testMeomoryCards).filter((_, index) => index < numberOfCardsFromServer); //random cards that will be used
 
